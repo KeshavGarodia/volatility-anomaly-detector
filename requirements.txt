@@ -1,0 +1,11 @@
+streamlit
+yfinance
+pandas
+scikit-learn
+matplotlib
+seaborn
+requests
+beautifulsoup4
+transformers
+torch
+sentencepiece
