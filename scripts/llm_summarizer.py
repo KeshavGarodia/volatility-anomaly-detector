@@ -1,6 +1,4 @@
 from transformers import pipeline
-
-# Load local summarization pipeline
 summarizer = pipeline("text2text-generation", model="google/flan-t5-base")
 
 def summarize_anomaly(stock_name: str, date: str, headlines: list[str]) -> str:
