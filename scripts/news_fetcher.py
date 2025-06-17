@@ -2,7 +2,7 @@ import requests
 from datetime import datetime, timedelta
 import os
 
-NEWS_API_KEY = "cba0fc59737f4086b03d7af14e9c08da" # or paste key directly if not using env vars
+NEWS_API_KEY = "cba0fc59737f4086b03d7af14e9c08da" 
 
 def fetch_news(stock_name: str, date: str, max_results=3):
     """
